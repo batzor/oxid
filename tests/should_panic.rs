@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-use oxid::{exit_qemu, serial_print, serial_println, QemuExitCode};
 use core::panic::PanicInfo;
+use oxid::{exit_qemu, serial_print, serial_println, QemuExitCode};
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
