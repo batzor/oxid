@@ -17,6 +17,8 @@ The bootable disk image should be created at `target/x86_64-oxid-os/debug/bootim
 
 To run on QEMU first install qemu
 `sudo apt install qemu`
+NOTE: on WSL, you may need to
+`sudo apt install qemu-system-x86`
 
 To run using the default configuration in `.cargo/build`  
 `cargo run`
